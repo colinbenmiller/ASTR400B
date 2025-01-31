@@ -29,26 +29,4 @@ def Read(filename):
     return time, particles, data #returns outputs
 
 
-# In[3]:
-
-
-filename = "./MW_000.txt" #this brings and initializes the file
-
-
-# In[4]:
-
-
-Read(filename) #this reads the file
-
-
-# In[12]:
-
-
-print(data['type'][1]) #this tests the file
-
-
-# In[ ]:
-
-
-
 
